@@ -1,8 +1,10 @@
-# React + Vite
+MOVIES APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma Vite React App com Tailwindcss e Prime React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para Rodar precisa de :
+1- Criar uma conta no site https://www.themoviedb.org/ e Perfil > Definições > API copiar a sua "Chave de API".
+2- Criar .env.local em /movie-app com o conteúdo:
+  VITE_MOVIE_API_KEY=COLAR_CHAVE_API_AQUI <---
+3- com node v22+ dar npm i e npm run dev.
+4- Enjoy!
